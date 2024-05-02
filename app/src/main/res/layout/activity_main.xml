@@ -38,21 +38,6 @@
         app:layout_constraintTop_toTopOf="parent"
         android:background="@color/white"/>
 
-<!--    <AutoCompleteTextView-->
-<!--        android:id="@+id/atcv"-->
-<!--        android:layout_marginTop="8dp"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:hint="Search by a state name..."-->
-<!--        android:padding="15dp"-->
-<!--        android:backgroundTint="@color/white"-->
-<!--        android:background="@drawable/border"-->
-<!--        android:layout_marginLeft="5dp"-->
-<!--        android:layout_marginRight="5dp"-->
-<!--        android:drawableStart="@drawable/baseline_search_24"-->
-<!--        android:drawablePadding="8dp"-->
-<!--        android:gravity="center_vertical"-->
-<!--        android:completionThreshold="3"/>-->
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cv"
@@ -80,5 +65,4 @@
         android:padding="8dp"
         android:background="#B9B9B9"
         />
-
 </LinearLayout>
