@@ -41,7 +41,6 @@ public class StateAdapter extends RecyclerView.Adapter<StateAdapter.StateViewHol
     public int getItemCount() {
         return stateList.size();
     }
-
     public interface OnItemClickListener {
         void onItemClick(String stateName);
     }

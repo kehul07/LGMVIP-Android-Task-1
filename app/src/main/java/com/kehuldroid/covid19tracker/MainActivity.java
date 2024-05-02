@@ -2,28 +2,16 @@ package com.kehuldroid.covid19tracker;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.AutoCompleteTextView;
-import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
-import com.kehuldroid.covid19tracker.DistrictActivity;
-import com.kehuldroid.covid19tracker.R;
-import com.kehuldroid.covid19tracker.StateAdapter;
-import com.kehuldroid.covid19tracker.StateModel;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 
